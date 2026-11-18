@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#121214">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONSOLA DEL OFICIAL DE GUARDIA"
+        android:textColor="#A29BFE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etSoldado"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nombre del efectivo (ej: Aragorn)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#75757A"
+        android:backgroundTint="#6C5CE7"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/spRango"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#6C5CE7"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/cbEstado"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="En Guardia (Activo)"
+        android:textColor="#FFFFFF"
+        android:buttonTint="#6C5CE7"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarGuardia"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:text="Registrar Turno"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#6C5CE7"/>
+
+
+
+</LinearLayout >
