@@ -26,6 +26,11 @@
             android:name=".RegistroGuardia"
             android:exported="false"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PergaminoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

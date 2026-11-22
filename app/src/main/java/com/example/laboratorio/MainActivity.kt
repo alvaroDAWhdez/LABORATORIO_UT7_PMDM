@@ -20,10 +20,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         val btnLab1 = findViewById<Button>(R.id.btnLab1RegistroGuardia)
+        val btnLab2 = findViewById<Button>(R.id.btnLab2Pergaminos)
 
         btnLab1.setOnClickListener {
             val intent = Intent(this, RegistroGuardia::class.java)
             startActivity(intent)
+        }
+
+        btnLab2.setOnClickListener {
+            startActivity(Intent(this, PergaminoActivity::class.java))
         }
     }
 }
