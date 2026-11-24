@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnLab1 = findViewById<Button>(R.id.btnLab1RegistroGuardia)
         val btnLab2 = findViewById<Button>(R.id.btnLab2Pergaminos)
+        val btnLab3 = findViewById<Button>(R.id.btnLab3SQLite)
 
         btnLab1.setOnClickListener {
             val intent = Intent(this, RegistroGuardia::class.java)
@@ -29,6 +30,11 @@ class MainActivity : AppCompatActivity() {
 
         btnLab2.setOnClickListener {
             startActivity(Intent(this, PergaminoActivity::class.java))
+        }
+
+
+        btnLab3.setOnClickListener {
+            startActivity(Intent(this, SQLiteActivity::class.java))
         }
     }
 }
